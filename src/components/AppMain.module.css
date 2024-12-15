@@ -1,0 +1,18 @@
+.main {
+    margin-bottom: 200px;
+}
+.cards_container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+/* utilities */
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+}
+    
