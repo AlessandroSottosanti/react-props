@@ -23,6 +23,7 @@ const AppMain = () => {
                                     title={post.title}
                                     content={post.content}
                                     published={post.published}
+                                    tags={post.tags}
                                 />
 
                             ))
