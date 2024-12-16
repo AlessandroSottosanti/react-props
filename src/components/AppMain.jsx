@@ -2,9 +2,13 @@ import CardPost from "./CardPost";
 import SectionTitle from "./SectionTitle";
 import style from "./AppMain.module.css";
 import posts from '../data/posts.js';
-
+import Tags from './Tags';
 
 const AppMain = () => {
+
+    const allTags = posts.map(post => post.tags);
+
+
     return (
         <>
             <section>
@@ -29,6 +33,11 @@ const AppMain = () => {
                             ))
                         }
                     </section>
+
+                    <section>                        
+                            <Tags tags={allTags} />
+                    </section>
+
 
                 </div>
             </section>
